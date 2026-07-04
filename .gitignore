@@ -1,0 +1,7 @@
+# Python Environment
+.venv/
+__pycache__/
+
+# Local Test Documents (Don't upload personal data!)
+test_doc.txt
+*.pdf
