@@ -46,5 +46,3 @@ if __name__ == "__main__":
 
     print("\n -- Text Preview -- \n")
     print(my_doc.raw_text[:600])
-                
-
