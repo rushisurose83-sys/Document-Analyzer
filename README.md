@@ -19,5 +19,5 @@ This project demonstrates a zero-network Edge AI approach to document processing
 
 **1. Clone the repository and navigate to the directory:**
 ```bash
-git clone [https://github.com/rushisurose83-sys/Offline-AI-PDF-Analyzer.git](https://github.com/rushisurose83-sys/Offline-AI-PDF-Analyzer.git)
-cd Offline-AI-PDF-Analyzer
+git clone [https://github.com/rushisurose83-sys/Document-Analyzer.git](https://github.com/rushisurose83-sys/Document-Analyzer.git)
+cd Document-Analyzer
