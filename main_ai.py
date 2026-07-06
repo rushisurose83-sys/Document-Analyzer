@@ -4,7 +4,7 @@ from analyzer_blueprint import DocumentAnalyzer
 print("Starting AI Doc Pipeline....")
 
 my_doc = DocumentAnalyzer("my_resume.pdf")
-my_doc.extract_text()
+my_doc.read_pdf()
 
 print("Sending Data To local Ai Model!!.....")
 
@@ -29,7 +29,7 @@ try :
     print("\n" + "="*50)
     print("AI Analysis Complete :")
     print("="*50)
-    print(response['content']['message'])
+    print(response['message']['content'])
 
 except Exception as e :
     print(f"\n Ai Connection Error : {e}")
