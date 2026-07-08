@@ -25,6 +25,7 @@ class DocumentAnalyzer :
     def read_pdf(self):
         try:
             reader = PdfReader(self.file_path)
+            extracted_text = " "
 
             num_pages = len(reader.pages)
             print(f"Extracted '{num_pages}' pages . Extracting Text ...")
@@ -45,4 +46,4 @@ if __name__ == "__main__":
     my_doc.read_pdf()
 
     print("\n -- Text Preview -- \n")
-    print(my_doc.raw_text[:600])
+    print(my_doc.raw_text)
